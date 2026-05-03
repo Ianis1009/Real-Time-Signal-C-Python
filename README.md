@@ -7,17 +7,23 @@ x(t) = e^{-\alpha t} \cdot \sin(\omega t)
 $$
 
 ---
+
 ### Components
 
 - **Sinusoidal component**:  
-  $$ \sin(\omega t) $$
+  $$
+  \sin(\omega t)
+  $$
   - Represents periodic oscillation  
   - $\omega$ is the angular frequency (rad/s)  
 
 - **Exponential decay**:  
-  $$ e^{-\alpha t} $$
+  $$
+  e^{-\alpha t}
+  $$
   - Controls amplitude reduction over time  
   - $\alpha$ is the damping coefficient  
+
 ---
 
 ### Interpretation
@@ -38,7 +44,7 @@ This type of signal appears in:
 
 - C for real-time signal generation  
 - Python (Matplotlib) for reading and plotting data  
-- A Makefile for automation 
+- A Makefile for automation  
 
 ---
 
@@ -52,6 +58,9 @@ This type of signal appears in:
   - fixed time step: `STEP`  
   - delay: `usleep()`  
 - Flushes output (`fflush`) for real-time streaming  
+
+---
+
 ### Python Script (`plot.py`)
 
 - Starts the C executable using `subprocess`  
@@ -82,7 +91,7 @@ Commands:
 
 ```bash
 make
-make clean 
+make clean
 ```
 ---
 

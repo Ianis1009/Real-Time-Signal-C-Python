@@ -7,23 +7,17 @@ x(t) = e^{-\alpha t} \cdot \sin(\omega t)
 $$
 
 ---
-
 ### Components
 
-- **Sinusoidal component**:
-  $$
-  \sin(\omega t)
-  $$
+- **Sinusoidal component**:  
+  $$ \sin(\omega t) $$
   - Represents periodic oscillation  
-  - $\omega$ is the angular frequency (rad/s)
+  - $\omega$ is the angular frequency (rad/s)  
 
-- **Exponential decay**:
-  $$
-  e^{-\alpha t}
-  $$
+- **Exponential decay**:  
+  $$ e^{-\alpha t} $$
   - Controls amplitude reduction over time  
   - $\alpha$ is the damping coefficient  
-
 ---
 
 ### Interpretation
